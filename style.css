@@ -1,0 +1,174 @@
+html {
+	scroll-behavior: smooth;
+}
+body {
+	background-color: #222;
+	font-family: "Montserrat", sans-serif;
+	color: white;
+}
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px grey;
+	border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: red;
+	border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #b30000;
+}
+
+/* ===================== Navbar */
+
+.navbar {
+	top: 0;
+	z-index: 100;
+	position: sticky;
+	position: -webkit-sticky;
+	width: 100%;
+	box-shadow: 0 0.5rem 1.5rem rgba(172, 172, 172, 0.1);
+	background-color: #222 !important;
+}
+.navbar-brand img {
+	width: 35%;
+	height: auto;
+}
+
+.navbar-nav li a {
+	color: red !important;
+	font-size: 25px;
+}
+
+.inactiveLink {
+	pointer-events: none;
+	cursor: default;
+}
+
+.navbar-nav li a:hover {
+	transition: 0.05s;
+	color: white !important;
+}
+
+/* ===================== JumboTron */
+.jumbotron-home {
+	height: 65vh;
+	background-color: #191919;
+	background-image: url("./images/traveler-bg.gif");
+	background-position: 45% 55%;
+	/* background-attachment: fixed; */
+}
+
+.home-jumbo-text {
+	padding-top: 200px;
+}
+.home-jumbo-text p {
+	text-align: left;
+	padding-left: 130px;
+	color: white !important;
+}
+
+.jumbotron-about {
+	background-image: url("./images/gaurdians.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	height: 65vh;
+}
+.home-jumbo-img img {
+	border-radius: 10px;
+	width: 90%;
+	height: auto;
+}
+
+.jumbo-cta {
+	margin-top: 120px;
+}
+.home-jumbo-second-h3 {
+	margin-bottom: 2.5rem;
+}
+.jumbo-cta a {
+	display: block;
+}
+.jumbo-cta img {
+	width: 25%;
+	height: auto;
+}
+
+/* .btn-scroll img {
+	width: 70px;
+	height: 70px;
+	color: white;
+	margin-top: 500px;
+} */
+
+.steam-logo img {
+	width: 50px;
+	height: 50px;
+}
+
+.apply-a {
+	padding: 15px;
+	margin: 20px;
+	margin-top: 5px;
+	width: 30%;
+	margin-left: 35%;
+	background-color: #ce0003;
+}
+.apply-a:hover {
+	background-color: #6f0305;
+	color: white;
+	border: #6f0305;
+}
+
+/* ===================== BODY */
+
+.pvp-image img {
+	width: 100%;
+	height: auto;
+	/* border: 1px solid white; */
+	border-radius: 10px;
+}
+
+.pve-image img {
+	width: 100%;
+	height: auto;
+	/* border: 1px solid white; */
+	border-radius: 10px;
+}
+
+.pvp-row,
+.pve-row {
+	margin-bottom: 100px;
+}
+
+.pvp-row {
+	text-align: right;
+}
+
+/* ===================== About  */
+.card {
+	color: black;
+}
+
+/* ===================== Footer */
+
+.paralax-row-before-footer {
+	background-image: url("./images/Destiny\ 2\ Guardians\ Banner.jpg");
+	height: 50vh;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.footer-logo img {
+	width: 80%;
+	height: auto;
+}
