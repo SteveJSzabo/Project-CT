@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light static-top">
+    <nav class="navbar navbar-expand-lg navbar-dark static-top">
         <div class="container">
             <a class="navbar-brand" href="./index.html">
                 <img src="./images/logo.gif" alt="">
@@ -31,7 +31,7 @@
                     <li class="nav-item li-home">
                         <a class="nav-link" href="./index.html"> Home</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link inactiveLink" href="">|</a></li>
+                    <li class="nav-item"><a class="nav-link inactiveLink d-lg-block d-none" href="">|</a></li>
                     <li class="nav-item li-our-clan">
                         <a class="nav-link" href="./our-clan.html">Our Clan </a>
                     </li>
@@ -44,58 +44,62 @@
         </div>
     </nav>
 
-    <section class="jumbotron-home text-center">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-4 col-sm-12 home-jumbo-text">
+    <section class="j1 px-lg-5">
+        <div class="container-fluid h-100">
+            <div class="row h-100">
+                <div class="col-sm-4 col-5 my-auto p-lg-5">
                     <h1 class="jumbotron-heading">Chosen Travelers</h1>
                     <p class="lead text-muted">Welcome to the Chosen Travelers Website, the official Discord
                         Community
                         Server for the Chosen Travelers clan in Destiny 2!</p>
                 </div>
-                <div class="col-md-4 col-sm-12"></div>
-                <div class="col-md-4 col-sm-12 ">
-                    <div class="jumbo-cta ">
+                <div class="col-sm-4 col-2">
+
+                </div>
+                <div class="col-sm-4 col-5 text-center lastcol my-auto">
+                    <div>
                         <h3>Join Our Discord: </h3>
                         <a target="_blank" href="https://discord.gg/xHnkMt">
                             <img src="./images/Discord_Red_Logo.png" alt="">
                         </a>
-                        <h3 class="home-jumbo-second-h3">Apply to our clan: </h3>
+                        <h3 class="home-jumbo-second-h3 mb-3">Apply to our clan: </h3>
                         <a target="_blank" href="https://forms.gle/2zZWcMxcoenS7Nfa6" id="topics"
                             class="apply-a btn btn-danger my-2"> Apply here</a>
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
 
 
-
-
-
     <div class="container">
-        <div class="row text-center p-5">
+        <div class="row text-center py-5 px-3">
             <div class="col-md-12 mb-2">
                 <h2>What Chosen Travelers Focus On </h2>
             </div>
         </div>
-        <div class="row pve-row border-top p-5">
-            <div class="col-md-6 p-5">
+        <div class="row pve-row border-top py-4">
+            <div class="col-md-6 my-auto py-3">
                 <h3>PvE</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, provident. Possimus sunt in
                     reprehenderit expedita ab labore? Saepe hic nemo quasi architecto voluptatibus ducimus ipsam
                     quo, tenetur, iusto cupiditate ex.</p>
             </div>
-            <div class="col-md-6 pve-image">
+            <div class="col-md-6 pve-image py-3">
                 <img src="./images/pve-image.png" alt="">
             </div>
         </div>
-        <div class="row pve-row">
-            <div class="col-md-6 pvp-image">
+        <div class="row pve-row py-4">
+            <div class="col-md-6 pvp-text my-auto py-3 d-md-none">
+                <h3>PvP</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, provident. Possimus sunt in
+                    reprehenderit expedita ab labore? Saepe hic nemo quasi architecto voluptatibus ducimus ipsam
+                    quo, tenetur, iusto cupiditate ex.</p>
+            </div>
+            <div class="col-md-6 pvp-image my-auto py-3">
                 <img src="./images/pvp-image.jpg" alt="">
             </div>
-            <div class="col-md-6 pvp-text">
+            <div class="col-md-6 pvp-text my-auto py-3 d-md-block d-none">
                 <h3>PvP</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, provident. Possimus sunt in
                     reprehenderit expedita ab labore? Saepe hic nemo quasi architecto voluptatibus ducimus ipsam
@@ -103,14 +107,14 @@
             </div>
 
         </div>
-        <div class="row pve-row end-game-row">
-            <div class="col-md-6 p-5">
+        <div class="row pve-row end-game-row py-4">
+            <div class="col-md-6 my-auto py-3">
                 <h3>Endgame</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, provident. Possimus sunt in
                     reprehenderit expedita ab labore? Saepe hic nemo quasi architecto voluptatibus ducimus ipsam
                     quo, tenetur, iusto cupiditate ex.</p>
             </div>
-            <div class="col-md-6 pvp-image">
+            <div class="col-md-6 pvp-image my-auto py-3">
                 <img src="./images/end-game.png" alt="">
             </div>
         </div>
@@ -124,7 +128,7 @@
 
         <footer class="pt-4 my-md-5 pt-md-5">
             <div class="row">
-                <div class="col-12 col-md footer-logo">
+                <div class="col-12 col-md footer-logo py-4">
                     <img src="./images/logo.gif" alt="">
                     <!-- <small class="d-block  text-muted">© 2017-2018</small> -->
                 </div>
@@ -164,6 +168,16 @@
 
     <!-- <script src="https://use.fontawesome.com/969c90d925.js"></script> -->
     <!-- <script src="scripts.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
 </body>
 
 </html>
