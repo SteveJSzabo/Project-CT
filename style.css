@@ -80,7 +80,6 @@ body {
 	background-color: #191919;
 	background-image: url("./images/traveler-bg.gif");
 	background-position: 45% 55%;
-	/* background-attachment: fixed; */
 }
 
 .j1 {
@@ -88,7 +87,6 @@ body {
 	background-color: #191919;
 	background-image: url(./images/traveler-bg.gif);
 	background-position: center;
-	/* background-attachment: fixed; */
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -97,9 +95,7 @@ body {
 	color: white !important;
 }
 .lastcol img {
-	border-radius: 10px;
-	width: auto;
-	max-width: 120px;
+	max-width: 110px;
 	height: auto;
 }
 
@@ -110,13 +106,6 @@ body {
 	height: 65vh;
 	background-position: center;
 }
-
-/* .btn-scroll img {
-	width: 70px;
-	height: 70px;
-	color: white;
-	margin-top: 500px;
-} */
 
 .apply-a {
 	padding: 15px;
@@ -134,10 +123,24 @@ body {
 .CT-title {
 	font-family: "Montserrat", sans-serif;
 }
+.CT-title-row {
+	padding-bottom: 0 !important;
+}
+.lead-background {
+	background-image: url("./images/lead-background.jpg");
+	background-position: 50% 50%;
+	height: 30vh;
+	background-size: cover;
+	margin-top: 40px;
+	border-radius: 30px;
+	background-attachment: fixed;
+}
+.lead-background .row .col-md-12 {
+	margin-top: 20px;
+}
 .pvp-image img {
 	width: 100%;
 	height: auto;
-	/* border: 1px solid white; */
 	border-radius: 10px;
 }
 
@@ -235,7 +238,7 @@ body {
 		display: none;
 	}
 	.navbar {
-		height: 80px;
+		height: 90px;
 	}
 	.j1 {
 		height: 250px !important;
@@ -249,13 +252,23 @@ body {
 	.j1 h3 {
 		font-size: 12px;
 	}
-	.lastcol {
+	/* .lastcol {
 		margin-top: 45px !important;
+	} */
+	.apply-section h3 {
+		padding-bottom: 0 !important;
 	}
-	.lead {
+	/* .lead {
 		line-height: 1.1;
 		font-size: 12px !important;
 		width: 90%;
+	} */
+	.lead-background .row .col-md-12 h2 {
+		font-size: 18px !important;
+		width: 100%;
+	}
+	.lead-background .row .col-md-12 {
+		margin-top: 1px !important;
 	}
 	.lastcol img {
 		max-width: 40px;
