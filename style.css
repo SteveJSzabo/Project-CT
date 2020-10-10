@@ -134,6 +134,7 @@ body {
 	margin-top: 40px;
 	border-radius: 30px;
 	background-attachment: fixed;
+	/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 .lead-background .row .col-md-12 {
 	margin-top: 20px;
@@ -142,6 +143,7 @@ body {
 	width: 100%;
 	height: auto;
 	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .pve-image img {
@@ -149,6 +151,7 @@ body {
 	height: auto;
 	/* border: 1px solid white; */
 	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .pvp-row {
@@ -161,6 +164,7 @@ body {
 	border: none;
 	position: relative;
 	border-radius: 10px 10px 10px 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
 }
 .card-img-top {
 	height: 480px;
