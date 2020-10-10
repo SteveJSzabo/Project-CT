@@ -92,7 +92,7 @@ body {
 	background-size: cover;
 	background-attachment: fixed;
 	height: 65vh;
-	background-position: 50% 50%;
+	background-position: center;
 }
 
 /* .btn-scroll img {
