@@ -92,7 +92,7 @@ body {
 	background-size: cover;
 	background-attachment: fixed;
 	height: 65vh;
-	background-position: center;
+	background-position: 50% 50%;
 }
 
 /* .btn-scroll img {
@@ -139,9 +139,11 @@ body {
 	color: black;
 	border: none;
 	position: relative;
+	border-radius: 10px 10px 10px 10px;
 }
 .card-img-top {
 	height: 480px;
+	border-radius: 10px 10px 0 0;
 }
 /* .card:hover {
 	border: 2px solid #ff10fb;
@@ -150,12 +152,18 @@ body {
 } */
 
 .card-body {
-	height: 300px;
+	height: 320px;
+	background-color: #dcdcdc;
+	border-top: 1px solid black;
+	border-radius: 0 0 10px 10px;
 }
 
 .steam-logo {
 	position: absolute;
 	bottom: 20px;
+}
+.steam-logo-grey {
+	bottom: 5px;
 }
 
 .steam-logo img {
@@ -167,6 +175,18 @@ body {
 	height: auto !important;
 }
 
+.h2-name-founder {
+	color: #ff1493;
+}
+.h2-name-admin {
+	color: red;
+}
+.our-clan-titles {
+	color: red;
+}
+.our-clan-title-founder {
+	color: #ff1493;
+}
 /* ===================== Footer */
 
 .paralax-row-before-footer {
