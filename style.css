@@ -37,15 +37,31 @@ body {
 	width: 100%;
 	box-shadow: 0 0.5rem 1.5rem rgba(172, 172, 172, 0.1);
 	background-color: #222 !important;
+	height: 60px;
+	opacity: 0.9;
 }
 .navbar-brand img {
 	width: 35%;
 	height: auto;
+	margin-top: 20px;
 }
 
 .navbar-nav li a {
 	color: red !important;
 	font-size: 25px;
+	font-family: "Aldrich", sans-serif;
+}
+.main-title {
+	font-family: "Aldrich", sans-serif;
+}
+.main-title h1 {
+	margin-left: 60px;
+	font-family: "Aldrich", sans-serif;
+}
+.lead {
+	line-height: 1.6;
+	font-size: 20px;
+	width: 70%;
 }
 
 .inactiveLink {
@@ -115,7 +131,9 @@ body {
 }
 
 /* ===================== BODY */
-
+.CT-title {
+	font-family: "Montserrat", sans-serif;
+}
 .pvp-image img {
 	width: 100%;
 	height: auto;
@@ -207,9 +225,18 @@ body {
 	.j1 {
 		height: 500px !important;
 	}
+	.main-title h1 {
+		display: none;
+	}
 }
 
 @media only screen and (max-width: 767px) {
+	.main-title h1 {
+		display: none;
+	}
+	.navbar {
+		height: 80px;
+	}
 	.j1 {
 		height: 250px !important;
 	}
@@ -222,6 +249,14 @@ body {
 	.j1 h3 {
 		font-size: 12px;
 	}
+	.lastcol {
+		margin-top: 45px !important;
+	}
+	.lead {
+		line-height: 1.1;
+		font-size: 12px !important;
+		width: 90%;
+	}
 	.lastcol img {
 		max-width: 40px;
 	}
@@ -231,6 +266,7 @@ body {
 		width: fit-content;
 		font-size: 10px;
 	}
+
 	.paralax-row-before-footer {
 		height: 30vh;
 		background-attachment: inherit;
@@ -240,5 +276,9 @@ body {
 	}
 	.footer-logo img {
 		max-width: 100px;
+		margin-bottom: 30px;
+	}
+	.footer-li div {
+		text-align: center !important;
 	}
 }
