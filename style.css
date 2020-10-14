@@ -73,6 +73,10 @@ body {
 	transition: 0.05s;
 	color: white !important;
 }
+.nav-item{
+	background-color: #222 !important;
+    padding: 0px 8px;
+}
 
 /* ===================== JumboTron */
 .jumbotron-home {
@@ -129,7 +133,6 @@ body {
 .lead-background {
 	background-image: url("./images/lead-background.jpg");
 	background-position: 50% 50%;
-	height: 30vh;
 	background-size: cover;
 	margin-top: 40px;
 	border-radius: 30px;
@@ -232,7 +235,7 @@ body {
 	.j1 {
 		height: 500px !important;
 	}
-	.main-title h1 {
+	.main-title {
 		display: none;
 	}
 }
