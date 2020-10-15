@@ -13,7 +13,7 @@
     <None Include="wwwroot\images\favicon.ico" />
     <None Include="wwwroot\images\gaurdians-2.jpg" />
     <None Include="wwwroot\images\gaurdians-2.png" />
-    <None Include="wwwroot\images\gaurdians.jpg" />
+    <None Include="wwwroot\images\guardians.jpg" />
     <None Include="wwwroot\images\lead-background.jpg" />
     <None Include="wwwroot\images\logo.gif" />
     <None Include="wwwroot\images\main-jumbo-bg.gif" />
@@ -48,7 +48,7 @@
     <None Include="wwwroot\OLD\index.html" />
     <None Include="wwwroot\OLD\our-clan.html" />
     <None Include="wwwroot\OLD\scripts.js" />
-    <None Include="wwwroot\OLD\style.css" />
+    <None Include="wwwroot\css\style.css" />
   </ItemGroup>
 
   <ItemGroup>

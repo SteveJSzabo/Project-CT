@@ -1,42 +1,28 @@
-﻿<div class="top-row pl-4 navbar navbar-dark">
-    <a class="navbar-brand" href="">TravelersChosen</a>
-    <button class="navbar-toggler" @onclick="ToggleNavMenu">
+﻿<div class="container">
+    <a class="navbar-brand" href="./index.html">
+        <img src="./images/logo.gif" alt="">
+    </a>
+    <div class="row text-center main-title ml-5">
+        <div class="col-md-12">
+            <h1>Chosen Travelers</h1>
+        </div>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item li-home">
+                <a class="nav-link" href="./"> Home</a>
+            </li>
+            <li class="nav-item"><a class="nav-link inactiveLink d-lg-block d-none" href="">|</a></li>
+            <li class="nav-item li-our-clan">
+                <a class="nav-link" href="./ourclan">Our Clan </a>
+            </li>
+
+        </ul>
+    </div>
 </div>
 
-<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
-    <ul class="nav flex-column">
-        <li class="nav-item px-3">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="oi oi-home" aria-hidden="true"></span> Home
-            </NavLink>
-        </li>
-        <li class="nav-item px-3">
-            <NavLink class="nav-link" href="counter">
-                <span class="oi oi-plus" aria-hidden="true"></span> Counter
-            </NavLink>
-        </li>
-        <li class="nav-item px-3">
-            <NavLink class="nav-link" href="fetchdata">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
-            </NavLink>
-        </li>
-        <li class="nav-item px-3">
-            <NavLink class="nav-link" href="ourclan">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Our Clan
-            </NavLink>
-        </li>
-    </ul>
-</div>
 
-@code {
-    private bool collapseNavMenu = true;
-
-    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
-    {
-        collapseNavMenu = !collapseNavMenu;
-    }
-}
