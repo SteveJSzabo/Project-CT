@@ -29,7 +29,6 @@ namespace TravelersChosen
             services.AddRazorPages();
             services.AddHttpClient();
             services.AddServerSideBlazor();
-            services.AddSingleton<WeatherForecastService>();
             services.AddSingleton<ClanMemberService>();
         }
 
