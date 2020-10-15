@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "V880h23ZDMx1pq6OR1neIBuEHIGgD4VpbGN4s5R2PkoBco0G/WGW+f3tlmg/d64skr9syO+/s3uYB43oLY7U4A==",
+  "success": true,
+  "projectFilePath": "E:\\GIT\\Project-CT\\TravelersChosen.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\doste\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
